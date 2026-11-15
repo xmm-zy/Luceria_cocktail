@@ -1,0 +1,3298 @@
+{
+ "flows": [
+  {
+   "name": "1 · First launch & onboarding",
+   "start": "L01a_splashStart"
+  },
+  {
+   "name": "2 · Tonight → recipe → guided mixing",
+   "start": "T01_tonight"
+  },
+  {
+   "name": "3 · My bar & shopping list",
+   "start": "B01_bar"
+  },
+  {
+   "name": "4 · Journal, community, party & learn",
+   "start": "J01_journal"
+  },
+  {
+   "name": "5 · Settings & accessibility",
+   "start": "X02_vision"
+  }
+ ],
+ "links": [
+  {
+   "screen": "A01_largeText",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "A01_largeText",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "A01_largeText",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "A01_largeText",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "A01_largeText",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "A01_largeText",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "A02_voiceOver",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X04_motor",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "barAdd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B02_add",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "scanBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B04_camera",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B01_bar",
+   "element": "tileCampari",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B05_detail",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B02_add",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "B02_add",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "B02_add",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "B02_add",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "B02_add",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "B02_add",
+   "element": "addDone",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B02_add",
+   "element": "addClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B03_scan",
+   "element": "scanClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "allowCam",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B03_scan",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B04_camera",
+   "element": "denyCam",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "B05_detail",
+   "element": "detailClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "C01_stories",
+   "element": "storyOpen",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "C02_story",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "C01_stories",
+   "element": "storiesBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "C02_story",
+   "element": "storyBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "recipeBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "saveBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D05_saveSheet",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "recipeStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M00_overview",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "reviewsLink",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D04_reviews",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "tabMethod",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D02_method",
+   "transition": "instant"
+  },
+  {
+   "screen": "D01_recipe",
+   "element": "addToList",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D02_method",
+   "element": "recipeBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "D02_method",
+   "element": "saveBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D05_saveSheet",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D02_method",
+   "element": "recipeStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M00_overview",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "D02_method",
+   "element": "reviewsLink",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D04_reviews",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "D02_method",
+   "element": "tabIngredients",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "instant"
+  },
+  {
+   "screen": "D03_substitute",
+   "element": "subClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D03_substitute",
+   "element": "recipeBack",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D04_reviews",
+   "element": "recipeBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "D04_reviews",
+   "element": "saveBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D05_saveSheet",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D05_saveSheet",
+   "element": "saveDone",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D06_saved",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D05_saveSheet",
+   "element": "saveClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "D06_saved",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 2s",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "jSaved",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J02_saved",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "jMine",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J03_myRecipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "newRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J04_editor",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "J01_journal",
+   "element": "setLimit",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "jMixes",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "jMine",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J03_myRecipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "J02_saved",
+   "element": "newRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J04_editor",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "jMixes",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "jSaved",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J02_saved",
+   "transition": "instant"
+  },
+  {
+   "screen": "J03_myRecipes",
+   "element": "newRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J04_editor",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "J04_editor",
+   "element": "editorCancel",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "J04_editor",
+   "element": "editorSave",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J03_myRecipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "K01_learn",
+   "element": "learnBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "K01_learn",
+   "element": "toIce",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "K02_ice",
+   "transition": "instant"
+  },
+  {
+   "screen": "K02_ice",
+   "element": "learnBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "K02_ice",
+   "element": "toTools",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "K01_learn",
+   "transition": "instant"
+  },
+  {
+   "screen": "L01_splash",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 1.6s",
+   "action": "navigate",
+   "to": "L02_welcome",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L01a_splashStart",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 0.5s",
+   "action": "navigate",
+   "to": "L01_splash",
+   "transition": "SMART_ANIMATE"
+  },
+  {
+   "screen": "L02_welcome",
+   "element": "welcomeStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L03_age",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L02_welcome",
+   "element": "welcomeSignIn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L08_signin",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L03_age",
+   "element": "ageContinue",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L04_bar",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L03_age",
+   "element": "underAge",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L03b_zeroProof",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L03_age",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L04_bar",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L03b_zeroProof",
+   "element": "obNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L04_bar",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L04_bar",
+   "element": "obNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L05_taste",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L04_bar",
+   "element": "obBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L04_bar",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L05_taste",
+   "element": "obNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L06_comfort",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L05_taste",
+   "element": "obBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L05_taste",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L06_comfort",
+   "element": "obNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L07_notify",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L06_comfort",
+   "element": "obBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L06_comfort",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L07_notify",
+   "element": "obNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L08_signin",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L07_notify",
+   "element": "obBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L07_notify",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L07_notify",
+   "element": "notifyAllow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L08_signin",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L08_signin",
+   "element": "obDone",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L08_signin",
+   "element": "emailBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L09_email",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L08_signin",
+   "element": "obBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L08_signin",
+   "element": "obSkip",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L09_email",
+   "element": "sendCode",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L10_code",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "L09_email",
+   "element": "emailBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "L10_code",
+   "element": "verifyCode",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T03_firstRun",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "L10_code",
+   "element": "codeBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M00_overview",
+   "element": "overviewNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M01_gather",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M00_overview",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M00_overview",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M01_gather",
+   "element": "gatherNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M02_ice",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M01_gather",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M01_gather",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M01_gather",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M02_ice",
+   "element": "iceNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M03_gin",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M02_ice",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M02_ice",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M02_ice",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M03_gin",
+   "element": "ginNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M04_campari",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M03_gin",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M03_gin",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M03_gin",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M03_gin",
+   "element": "voiceBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M10_voice",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M04_campari",
+   "element": "campariNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M05_vermouth",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M04_campari",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M04_campari",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M04_campari",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M05_vermouth",
+   "element": "vermouthNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06_stir",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M05_vermouth",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M05_vermouth",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M05_vermouth",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M06_stir",
+   "element": "stirNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M07_stirDone",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M06_stir",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M06_stir",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M06_stir",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M06_stir",
+   "element": "timerPause",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06p_paused",
+   "transition": "instant"
+  },
+  {
+   "screen": "M06p_paused",
+   "element": "timerResume",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06_stir",
+   "transition": "instant"
+  },
+  {
+   "screen": "M06p_paused",
+   "element": "stirNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M07_stirDone",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M06p_paused",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M06p_paused",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M06p_paused",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M07_stirDone",
+   "element": "stirDoneNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M08_garnish",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M07_stirDone",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M07_stirDone",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M07_stirDone",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M07_stirDone",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 2.5s",
+   "action": "navigate",
+   "to": "M08_garnish",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M08_garnish",
+   "element": "garnishNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M12_done",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M08_garnish",
+   "element": "mixBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "M08_garnish",
+   "element": "mixEnd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M11_stop",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M08_garnish",
+   "element": "allSteps",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M09_allSteps",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M02_ice",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M03_gin",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M04_campari",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M05_vermouth",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06_stir",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "jump5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M08_garnish",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M09_allSteps",
+   "element": "drawerClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06_stir",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M10_voice",
+   "element": "ginNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M04_campari",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M10_voice",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 3s",
+   "action": "navigate",
+   "to": "M04_campari",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "M11_stop",
+   "element": "dialogKeep",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M06_stir",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M11_stop",
+   "element": "dialogStop",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M12_done",
+   "element": "doneSave",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "M12_done",
+   "element": "doneClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "N01_notifications",
+   "element": "notifBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "P01_party",
+   "element": "partyBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "P01_party",
+   "element": "toGames",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P02_games",
+   "transition": "instant"
+  },
+  {
+   "screen": "P02_games",
+   "element": "partyBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "P02_games",
+   "element": "toPlanner",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P01_party",
+   "transition": "instant"
+  },
+  {
+   "screen": "P02_games",
+   "element": "playDice",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P03_dice",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "P02_games",
+   "element": "playWheel",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P04_wheel",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "P03_dice",
+   "element": "roll",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P03b_diceRolled",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "P03_dice",
+   "element": "gameClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P02_games",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "P03b_diceRolled",
+   "element": "roll",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P03_dice",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "P03b_diceRolled",
+   "element": "gameClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P02_games",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "P04_wheel",
+   "element": "spin",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P04b_wheelResult",
+   "transition": "SMART_ANIMATE"
+  },
+  {
+   "screen": "P04_wheel",
+   "element": "gameClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P02_games",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "P04b_wheelResult",
+   "element": "spin",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P04_wheel",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "P04b_wheelResult",
+   "element": "gameClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P02_games",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "card_negroni",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "card_mojito",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D03_substitute",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "filtersBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R02_filters",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "R01_recipes",
+   "element": "searchBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R03_search",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "filtersApply",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "R02_filters",
+   "element": "filtersClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "R03_search",
+   "element": "searchResult",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "R03_search",
+   "element": "searchCancel",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "R04_noResults",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R03_search",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "R05_loading",
+   "element": "(whole screen)",
+   "trigger": "AFTER_TIMEOUT 1.2s",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S01_list",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "S01_list",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "S01_list",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "S01_list",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "S01_list",
+   "element": "shareList",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S03_share",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S01_list",
+   "element": "addItem",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S02_addItem",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "addItemDone",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S02_addItem",
+   "element": "addItemClose",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S03_share",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "S03_share",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "S03_share",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "S03_share",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "S03_share",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "S03_share",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "S04_listEmpty",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "S04_listEmpty",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "S04_listEmpty",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "S04_listEmpty",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "S04_listEmpty",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "shuffleBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01b_tonightAlt",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "heroStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M00_overview",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "heroRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "heroArt",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "searchBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R03_search",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "bellBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "N01_notifications",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "avatarBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "U01_profile",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "seeAll",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "pill_whiskeySour",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "pill_margarita",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01_tonight",
+   "element": "pill_blackRussian",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "shuffleBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "heroStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M00_overview",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "heroRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "heroArt",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "searchBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R03_search",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "bellBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "N01_notifications",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "avatarBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "U01_profile",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "seeAll",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "pill_whiskeySour",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "pill_blackRussian",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T01b_tonightAlt",
+   "element": "pill_negroni",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "T02_tonightEmpty",
+   "element": "emptyAdd",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B02_add",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "T03_firstRun",
+   "element": "tipNext",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "profileBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "U01_profile",
+   "element": "settingsBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "signOut",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L02_welcome",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "collectionsRow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J02_saved",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "storiesRow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "C01_stories",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "partyRow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "P01_party",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "U01_profile",
+   "element": "learnRow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "K01_learn",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X01_appearance",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "a11y1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X03_hearing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "a11y2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X04_motor",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "a11y3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X05_focus",
+   "transition": "instant"
+  },
+  {
+   "screen": "X02_vision",
+   "element": "previewLarge",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "A01_largeText",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "a11y0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "a11y2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X04_motor",
+   "transition": "instant"
+  },
+  {
+   "screen": "X03_hearing",
+   "element": "a11y3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X05_focus",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "a11y0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "a11y1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X03_hearing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "a11y3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X05_focus",
+   "transition": "instant"
+  },
+  {
+   "screen": "X04_motor",
+   "element": "voPreview",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "A02_voiceOver",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "a11y0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "a11y1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X03_hearing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X05_focus",
+   "element": "a11y2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X04_motor",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X06_mixing",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X07_notifications",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X08_mindful",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "nav6",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X10_about",
+   "transition": "instant"
+  },
+  {
+   "screen": "X09_account",
+   "element": "deleteAccount",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X11_deleteConfirm",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X09_account",
+   "element": "syncRow",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "Y02_syncError",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X10_about",
+   "element": "settingsBack",
+   "trigger": "ON_CLICK",
+   "action": "back",
+   "to": null,
+   "transition": null
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X01_appearance",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X02_vision",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X06_mixing",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X07_notifications",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X08_mindful",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "nav5",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "instant"
+  },
+  {
+   "screen": "X10_about",
+   "element": "whatsNew",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "Y03_whatsNew",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X11_deleteConfirm",
+   "element": "deleteCancel",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "X11_deleteConfirm",
+   "element": "deleteGo",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "L02_welcome",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "heroStart",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "M00_overview",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "heroRecipe",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "heroArt",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "searchBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R03_search",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "bellBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "N01_notifications",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "avatarBtn",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "U01_profile",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "seeAll",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "pill_whiskeySour",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "pill_margarita",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "pill_blackRussian",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "D01_recipe",
+   "transition": "MOVE_IN"
+  },
+  {
+   "screen": "Y01_offline",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y02_syncError",
+   "element": "(whole screen)",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "X09_account",
+   "transition": "DISSOLVE"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "tab0",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "tab1",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "R01_recipes",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "tab2",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "B01_bar",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "tab3",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "S01_list",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "tab4",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "J01_journal",
+   "transition": "instant"
+  },
+  {
+   "screen": "Y03_whatsNew",
+   "element": "whatsNewDone",
+   "trigger": "ON_CLICK",
+   "action": "navigate",
+   "to": "T01_tonight",
+   "transition": "DISSOLVE"
+  }
+ ]
+}
