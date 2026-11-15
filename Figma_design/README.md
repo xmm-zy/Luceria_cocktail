@@ -1,5 +1,7 @@
 # Luceria Cocktail Atelier · 桌面版设计 v1.0
 
+> **最新版本是 iPad 版 v2.1**，见 [v2/README.md](v2/README.md)；开发指南见 [v2/DEVELOPER_GUIDE.md](v2/DEVELOPER_GUIDE.md)。以下是 v1.0 桌面版的说明。
+
 基于 [drink-app](https://github.com/xmm-zy/drink-app) 重新设计的桌面应用界面。
 
 **定位**：你桌面上的私人地下酒吧，一个「内容 + 工具 + 社区」型的生活方式应用，可以查配方、管理家庭吧台、跟着步骤调酒、听音乐，也能和朋友玩几局。
