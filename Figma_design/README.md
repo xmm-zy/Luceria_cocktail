@@ -23,7 +23,7 @@ Figma_design/
 │  ├─ 02_Components            组件与状态变体
 │  ├─ 03–08                    全部屏幕，含每屏下方的 ASSET TODO 批注
 │  ├─ 09_Light_HighContrast    浅色与高对比度；Hero 随饮品变色示例
-│  └─ 11_Handoff               交付说明（PNG）
+│  └─ 11_Handoff               交付说明：布局数值、动效、无障碍、配色规则、素材清单（另有 PNG）
 ├─ screens/                    单屏 PNG（1x），文件名 = 屏幕编号
 │  ├─ 03_onboarding/           L01–L10  启动、欢迎、年龄、吧台、口味、舒适度、通知、登录
 │  ├─ 04_tonight_recipes/      T01–T03 今晚 · R01–R05 配方库 · D01–D06 配方详情 · N01 通知 · U01 个人
